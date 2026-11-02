@@ -35,6 +35,18 @@
         "source": "github",
         "repo": "thedotmack/claude-mem"
       }
+    },
+    "headroom-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "chopratejas/headroom"
+      }
+    },
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
     }
   },
   "enabledPlugins": {
@@ -43,6 +55,8 @@
     "caveman@caveman": true,
     "ponytail@ponytail": true,
     "ui-ux-pro-max@ui-ux-pro-max-skill": true,
-    "claude-mem@thedotmack": true
+    "claude-mem@thedotmack": true,
+    "headroom@headroom-marketplace": true,
+    "claude-code-setup@claude-plugins-official": true
   }
 }
